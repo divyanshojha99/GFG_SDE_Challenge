@@ -49,7 +49,7 @@ Code Validator is a web application built with Node.js and Express.js that analy
 
 5. Click the "Run Test" button to initiate the analysis process.
 
-6. View the feedback provided by the application can view in Console.
+6. The feedback provided by the application can view in Console.
 
 ## API Endpoints
 
