@@ -1,0 +1,10 @@
+[
+    { 
+        "description": "Your portfolio should have a Welcome section with an id of welcome-section.",
+        "check": "() => $('#welcome-section').length > 0"
+    },
+    {
+        "description": "Your #welcome-section element should contain an h1 element.",
+        "check": "() => $('#welcome-section h1').length > 0"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "description": "Check if jQuery is used",
+        "check": "(content) => content.includes('jQuery')"
+    }
+]

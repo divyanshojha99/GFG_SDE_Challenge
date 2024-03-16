@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDE Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <h1>GeeksforGeeks</h1>
+    </nav>
+    <div id="main_section">
+        <div class="area">
+        <label for="htmlInput">Enter HTML code:</label>
+        <textarea id="htmlInput" rows="10" cols="50"></textarea>
+        </div>
+        <div class="area">
+        <label for="cssInput">Enter CSS code:</label>
+        <textarea id="cssInput" rows="10" cols="50"></textarea>
+        </div>
+        <div class="area">
+        <label for="jsInput">Enter JS code:</label>
+        <textarea id="jsInput" rows="10" cols="50"></textarea>
+        </div>
+    </div>
+    <div id="criterias">
+        <div>
+            <label for="htmlCriteria">HTML Criteria file upload:</label>
+            <input type="file" id="htmlCriteria" accept=".json">
+        </div>
+        <div>
+            <label for="cssCriteria">CSS Criteria file upload:</label>
+            <input type="file" id="cssCriteria" accept=".json">
+        </div>
+        <div>
+            <label for="jsCriteria">JavaScript Criteria file upload:</label>
+            <input type="file" id="jsCriteria" accept=".json">
+        </div>
+    </div>
+    <div class="runbutton"><button id="run" onclick=saveFile(event)>Run Tests</button></div>
+    <div id="results">
+        <div id="response1">HTML Response</div>
+        <div id="response2">CSS Response</div>
+        <div id="response3">JS Response</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

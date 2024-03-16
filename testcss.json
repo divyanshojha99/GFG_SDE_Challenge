@@ -1,0 +1,6 @@
+[
+    {
+        "description": "Check if jQuery is loaded from a CDN",
+        "check": "(content) => /<script\\s+src=['\"]https:\\/\\/code.jquery.com\\/jquery-\\d+\\.\\d+\\.\\d+\\.min\\.js['\"]\\s*>/i.test(content)"
+    }
+]
