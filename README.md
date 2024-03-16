@@ -8,10 +8,12 @@ Code Validator is a web application built with Node.js and Express.js that analy
 - Provides feedback on whether the code meets the specified requirements.
 - Supports custom criteria for each code type.
 
-## KEY Points
+## Key Points
 - Change the Criteria Files for HTML, CSS and JS in the given Format
 - Users Can Upload their HTML, CSS and JS Files.
 - Output Will be provided on JS Console Not on Frontend, will resolve this
+
+## Live on- https://divyanshojha99.github.io/GFG_SDE_Challenge/
 
 ## Installation
 
