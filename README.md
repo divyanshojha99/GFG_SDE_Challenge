@@ -8,6 +8,11 @@ Code Validator is a web application built with Node.js and Express.js that analy
 - Provides feedback on whether the code meets the specified requirements.
 - Supports custom criteria for each code type.
 
+## KEY Points
+- Change the Criteria Files for HTML, CSS and JS in the given Format
+- Users Can Upload their HTML, CSS and JS Files.
+- Output Will be provided on JS Console Not on Frontend, will resolve this
+
 ## Installation
 
 1. Clone the repository:
@@ -33,16 +38,16 @@ Code Validator is a web application built with Node.js and Express.js that analy
 1. Start the server:
 
     ```bash
-    npm start
+    npm node server.js
     ```
 
-2. Open your web browser and go to `http://localhost:3000`.
+2. Open your web browser and go to `http://127.0.0.1:5500/index.html`.
 
 3. Use the provided UI to input your HTML, CSS, and JavaScript code.
 
 4. Define criteria for each code type using JSON format.
 
-5. Click the "Analyze" button to initiate the analysis process.
+5. Click the "Run Test" button to initiate the analysis process.
 
 6. View the feedback provided by the application.
 
