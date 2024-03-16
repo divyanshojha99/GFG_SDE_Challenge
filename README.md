@@ -38,18 +38,18 @@ Code Validator is a web application built with Node.js and Express.js that analy
 1. Start the server:
 
     ```bash
-    npm node server.js
+    node server.js
     ```
 
-2. Open your web browser and go to `http://127.0.0.1:5500/index.html`.
+2. Open with live server and your web browser - go to `http://127.0.0.1:5500/index.html`.
 
 3. Use the provided UI to input your HTML, CSS, and JavaScript code.
 
-4. Define criteria for each code type using JSON format.
+4. Define criteria for each code type using JSON format and Upload.
 
 5. Click the "Run Test" button to initiate the analysis process.
 
-6. View the feedback provided by the application.
+6. View the feedback provided by the application can view in Console.
 
 ## API Endpoints
 
